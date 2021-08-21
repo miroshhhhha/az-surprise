@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "PF DinDisplay Pro Regular";
+    src: url("./assets/fonts/PFDinDisplayPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PF DinDisplay Pro Medium";
+    src: url("./assets/fonts/PFDinDisplayPro-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+main, .login{
+    font-family: "PF DinDisplay Pro Regular";
+}
+
+body{
+    background: linear-gradient(109.43deg, #FFFFFF 8.03%, #EAEAEA 103.28%);
+}
+
+.logo{
+    width: 82px;
+    height: 82px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-text{
+    display: flex;
+    margin: 66px 692px 0 676px;
+    justify-content: space-between;
+    font-family: "PF DinDisplay Pro Medium";
+}
+
+.main, .top-players, .auth{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.main:hover, .top-players:hover, .auth:hover{
+    background-color: #9C93DE;
+    color: white;
+}
+
+.img-avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.login{
+    display: flex;
+    width: 200px;
+}
+
+.login p{
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    margin-left: 13px;
+}
+
+.triangle {
+    color: black;
+}
